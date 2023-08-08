@@ -1,0 +1,105 @@
+@media  screen and (min-width:428px) {
+.container {
+      
+        max-width: 428px;
+        padding-left: 16px;
+        padding-right: 16px;}
+.header-menu {
+    display: none;
+        
+    }
+.header-socials {
+    display: none;
+    gap: 40px;
+}
+.studio-section-main {
+    padding: 112px 0;
+    max-width: 428px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+}
+.h-first {
+    font-size: 36px;
+    line-height: 1.11;
+    max-width: 320px;
+}
+
+.studio-button {   
+    margin: 72px auto 0;
+}
+.h-third {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+}
+.h-thirds{
+
+}
+.usualy-text {
+    
+    font-weight: 500;
+}
+.h-second {
+    font-weight: 700;
+  
+}
+.studio-section-advantages {
+    padding: 96px 0;
+}
+.studio-advantages {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+.adventagy-item {
+    width:100%;
+}
+.adventagy-icon {
+    display: none;
+}
+.adventagy-block {
+    display: none;
+}
+
+.studio-section-doing {
+    display: none;
+}
+.studio-section-team {
+    padding: 96px 82px;
+}
+.studio-img-team {
+    width: 100%;
+}
+.studio-team{
+    display: flex;
+    flex-direction: column;
+}
+.studio-team-infa {
+    width: 100%;  
+}
+.studio-customers-section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+.studio-client-list {
+   
+
+    gap: 16px;
+
+}
+.studio-client-li {
+width: calc((100% - 16px) / 2);
+    
+  
+    
+}
+
+.studio-client-link {
+   
+
+    
+   
+    
+   
+}
+}
