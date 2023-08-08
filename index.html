@@ -62,10 +62,50 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="menu-open-button button" data-menu-open>
+          <svg width="32" height="22" class="">
+            <use href="./images/icons.svg#icon-menu-open"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mob-menu is-hidden" data-menu>
+        <button type="button" class="menu-close-button button" data-menu-close>
+          <svg width="32" height="22" class="">
+            <use href="./images/icons.svg#icon-menu-open"></use>
+          </svg>
+        </button>
+        <div class="mob-socials">
+          <ul class="mob-menu-list list">
+            <li class="mob-menu-list">
+              <a href="./index.html" class="mob-menu-link link">Studio</a>
+            </li>
+            <li class="mob-menu-list">
+              <a href="./portfolio.html" class="mob-menu-link link"
+                >Portfolio</a
+              >
+            </li>
+            <li class="mob-menu-list">
+              <a href="" class="mob-menu-link link">Contacts</a>
+            </li>
+          </ul>
+        </div>
+        <ul class="list mob-socials">
+          <li class="mob-address-list">
+            <a class="mob-address-link link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="mob-address-list">
+            <a class="mob-address-link link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
       </div>
     </header>
     <main>
-      <section class="studio-section-main container">
+      <section class="studio-section-main">
         <div class="container">
           <h1 class="h-first">Effective Solutions for Your Business</h1>
           <button type="button" class="studio-button" data-modal-open>
@@ -342,8 +382,8 @@
           </ul>
         </div>
       </section>
-      <section class="studio-customers-section container">
-        <div class="container">
+      <section class="studio-customers-section">
+        <div class="conta">
           <h2 class="h-second">Customers</h2>
 
           <ul class="studio-client-list list">
@@ -395,49 +435,50 @@
     </main>
     <footer class="footer">
       <div class="container footer-container">
-        <div class="footer-logo-p">
-          <a href="./index.html" class="logo logo-footer link"
-            >Web<span class="footer-logo-studio">Studio</span></a
-          >
-          <p class="usual-text-footer">
-            Increase the flow of customers and sales for your business with
-            digital marketing & growth solutions.
-          </p>
+        <div class="footer-cont1-2">
+          <div class="footer-logo-p">
+            <a href="./index.html" class="logo logo-footer link"
+              >Web<span class="footer-logo-studio">Studio</span></a
+            >
+            <p class="usual-text-footer">
+              Increase the flow of customers and sales for your business with
+              digital marketing & growth solutions.
+            </p>
+          </div>
+          <div class="footer-socials-container">
+            <p class="footer-socials-p">Social media</p>
+            <ul class="socials-list-f list">
+              <li class="socials-list-element-f">
+                <a href="" class="socials-list-link-f">
+                  <svg width="24" height="24" class="socials-list-svg-f">
+                    <use href="./images/icons.svg#icon-instagram-2"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="socials-list-element-f">
+                <a href="" class="socials-list-link-f">
+                  <svg width="24" height="24" class="socials-list-svg-f">
+                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="socials-list-element-f">
+                <a href="" class="socials-list-link-f">
+                  <svg width="24" height="24" class="socials-list-svg-f">
+                    <use href="./images/icons.svg#icon-facebook-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="socials-list-element-f">
+                <a href="" class="socials-list-link-f">
+                  <svg width="24" height="24" class="socials-list-svg-f">
+                    <use href="./images/icons.svg#icon-linkedin-1"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="footer-socials-container">
-          <p class="footer-socials-p">Social media</p>
-          <ul class="socials-list-f list">
-            <li class="socials-list-element-f">
-              <a href="" class="socials-list-link-f">
-                <svg width="24" height="24" class="socials-list-svg-f">
-                  <use href="./images/icons.svg#icon-instagram-2"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="socials-list-element-f">
-              <a href="" class="socials-list-link-f">
-                <svg width="24" height="24" class="socials-list-svg-f">
-                  <use href="./images/icons.svg#icon-twitter-1"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="socials-list-element-f">
-              <a href="" class="socials-list-link-f">
-                <svg width="24" height="24" class="socials-list-svg-f">
-                  <use href="./images/icons.svg#icon-facebook-1"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="socials-list-element-f">
-              <a href="" class="socials-list-link-f">
-                <svg width="24" height="24" class="socials-list-svg-f">
-                  <use href="./images/icons.svg#icon-linkedin-1"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-
         <div class="footer-form-container">
           <p class="footer-subscribe-p">Subscribe</p>
           <form class="footer-form">
@@ -556,5 +597,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu .js"></script>
   </body>
 </html>

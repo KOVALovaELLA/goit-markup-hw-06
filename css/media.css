@@ -14,7 +14,7 @@
 }
 .studio-section-main {
     padding: 112px 0;
-    max-width: 428px;
+    min-width: 428px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
 }
 .h-first {
@@ -81,25 +81,516 @@
     padding-top: 96px;
     padding-bottom: 96px;
 }
-.studio-client-list {
-   
 
+   
+.studio-client-li {
+
+    width: calc((100% - 80px) / 2);
+    height: 88px;
+}
+.footer{
+   padding-top: 97.5px;
+    padding-bottom: 96px;  
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo-p{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 72px;
+    justify-content: center;
+    align-items: center;
+}
+.footer-socials-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 72px;
+}
+
+.footer-form-container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+   
+}
+.subscribe-email{
+    width: 398px;
+   
+   
+}
+
+.button-subscribe{
+    max-width: 165px;
+    margin: 0 auto;
+
+}}
+
+
+
+
+
+
+
+
+
+@media  screen and (min-width:768px) {
+.container{ 
+    min-width: 768px;
+    
+}
+.logo-header{
+    margin-right: 120px;
+}
+.header-menu{
+    display: flex ;
+    
+}
+.navigations{
+    display: flex;
+  
+}
+
+.header-socials{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    
+ 
+    
+   
+}
+.header-address-item {
+    
+    padding: 0 0;
+    font-size: 12px;
+    display: block;
+    
+}
+.studio-section-main{
+    background-color:var(--studio-main-color);
+    padding: 112px 0;
+    
+    
+    background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+}
+.h-first{
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    margin: 0 auto;
+    min-width: 496px;
+    }
+
+.studio-button {
+    margin:36px auto 0;
+}
+.h-third {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+}
+.usualy-text {
+    
+    font-weight: 500;
+}
+.h-second {
+    font-weight: 700;
+  
+}
+.studio-section-advantages {
+    padding: 96px 0;
+}
+.studio-advantages{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 24px;
+   
+}
+.adventagy-item{
+    width: calc((100% - 24px) / 2);
+   
+}
+.h-third {
+    text-align: start;
+}
+
+.studio-section-team {
+    padding: 96px 108px;
+}
+.studio-img-team {
+    width: 100%;
+}
+.studio-team{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    row-gap: 64px;
+}
+.studio-team-infa {
+    width: 100%;  
+}
+.studio-team-infa {
+    
+    
+    width: calc((100% - 24px)/2);
+}
+.studio-customers-section {
+    padding: 96px 108px;
+    
+
+}
+
+   
+.studio-client-li {
+
+    width: calc((100% - 24px*2) / 3);
+    height: 88px;
+}
+
+
+
+
+
+
+
+
+
+
+.footer {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 108px;
+}
+.footer-cont1-2{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+.footer-logo-p {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 72px;
+    justify-content: start;
+    align-items: start;
+}
+
+.footer-socials-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin-bottom: 72px;
+}
+
+.footer-form-container {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: row;
     gap: 16px;
 
 }
+
+.subscribe-email {
+    width: 264px;
+
+
+}
+
+.button-subscribe {
+    max-width: 165px;
+    margin: 0 auto;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1440px){
+.container {
+        
+        min-width: 1158px; 
+                     
+}
+.logo-header {
+    margin-right: 120px;
+}
+
+.header-menu {
+    display: flex;
+
+}
+
+.navigations {
+    display: flex;
+
+}
+
+.header-socials {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+
+
+
+
+}
+
+.header-address-item {
+
+    padding: 0 0;
+    font-size: 12px;
+    display: block;
+
+}
+
+.studio-section-main {
+    background-color: var(--studio-main-color);
+    padding: 188px 0;
+
+
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+}
+
+.h-first {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    margin: 0 auto;
+    min-width: 496px;
+}
+
+.studio-button {
+    margin: 48px auto 0;
+}
+
+.h-third {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.usualy-text {
+
+    font-weight: 400;
+}
+
+.h-second {
+    font-weight: 700;
+
+}
+
+.studio-section-advantages {
+    padding: 120px 0;
+}
+
+.studio-advantages {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 24px;
+
+}
+
+.adventagy-item {
+    width: calc((100% - 24px*3) / 4);
+
+}
+.adventagy-icon {
+    max-width: 100%;
+    height: auto;
+    display: inline;
+}
+
+.adventagy-block {
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    background: var(--cloud);
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.studio-images-doing {
+    display: flex;
+    gap: 24px;
+
+}
+
+.studio-section-doing {
+    display: block;
+    padding-bottom: 120px;
+}
+
+.studio-img-doing {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.studio-img-li {
+    width: calc((100% - 48px)/3);
+}
+.h-third {
+    text-align: start;
+}
+
+.studio-section-team {
+    padding: 120px 156px;
+}
+
+.studio-img-team {
+    width: 100%;
+}
+
+.studio-team {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.studio-team-infa {
+    width: 100%;
+}
+
+.studio-team-infa {
+
+
+width: calc((100% - 24px*3)/4);
+}
+
+.studio-customers-section {
+    padding: 96px 108px;
+
+
+}
+
+
 .studio-client-li {
-width: calc((100% - 16px) / 2);
-    
-  
-    
+
+width: calc((100% - 120px) / 6);
+    height: 88px;
 }
 
-.studio-client-link {
-   
 
-    
-   
-    
-   
+
+
+
+
+
+
+
+
+.footer {
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    margin-left: 108px;
+}
+
+.footer-cont1-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.footer-logo-p {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 72px;
+    justify-content: start;
+    align-items: start;
+}
+
+.footer-socials-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin-bottom: 72px;
+}
+
+.footer-form-container {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 80px;
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+
+}
+
+.subscribe-email {
+    width: 264px;
+
+
+}
+
+.button-subscribe {
+    max-width: 165px;
+    margin: 0 auto;
+
+}
+
+
+
 }
