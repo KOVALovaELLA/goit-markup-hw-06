@@ -1,4 +1,4 @@
-@media  screen and (min-width:428px) {
+@media  screen and (max-width:767px) {
 .container {
       
         max-width: 428px;
@@ -8,13 +8,21 @@
     display: none;
         
     }
+.logo-header{
+    margin-right: 0;
+}
 .header-socials {
     display: none;
     gap: 40px;
 }
+.menu-open-button{
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
 .studio-section-main {
     padding: 112px 0;
-    min-width: 428px;
+    
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
 }
 .h-first {
@@ -65,7 +73,7 @@
     display: none;
 }
 .studio-section-team {
-    padding: 96px 82px;
+    padding: 96px 0;
 }
 .studio-img-team {
     width: 100%;
@@ -73,6 +81,10 @@
 .studio-team{
     display: flex;
     flex-direction: column;
+    gap: 72px;
+}
+.our-team-container{
+    min-width: 296px;
 }
 .studio-team-infa {
     width: 100%;  
@@ -85,8 +97,12 @@
    
 .studio-client-li {
 
-    width: calc((100% - 80px) / 2);
+    width: calc((100% - 16px) / 2);
     height: 88px;
+}
+.studio-client-list {
+
+    gap:72px 16px;
 }
 .footer{
    padding-top: 97.5px;
@@ -110,9 +126,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
+}
+.footer-cont1-2{
     margin-bottom: 72px;
 }
-
 .footer-form-container{
     margin: 0 auto;
     display: flex;
@@ -127,7 +145,7 @@
    
 }
 .subscribe-email{
-    width: 398px;
+    max-width: 398px;
    
    
 }
@@ -148,8 +166,11 @@
 
 @media  screen and (min-width:768px) {
 .container{ 
-    min-width: 768px;
+    max-width: 768px;
     
+}
+.menu-open-button{
+    display: none;
 }
 .logo-header{
     margin-right: 120px;
@@ -227,12 +248,15 @@
     width: calc((100% - 24px) / 2);
    
 }
+.adventagy-block{
+    display: none;
+}
 .h-third {
     text-align: start;
 }
 
 .studio-section-team {
-    padding: 96px 108px;
+    padding: 96px 0px;
 }
 .studio-img-team {
     width: 100%;
@@ -246,17 +270,22 @@
 .studio-team-infa {
     width: 100%;  
 }
+.our-team-container{
+    min-width: 584px;
+}
 .studio-team-infa {
     
     
     width: calc((100% - 24px)/2);
 }
 .studio-customers-section {
-    padding: 96px 108px;
+    padding: 96px 0px;
     
 
 }
-
+.customers-container{
+    max-width: 584px ;
+}
    
 .studio-client-li {
 
@@ -264,7 +293,10 @@
     height: 88px;
 }
 
-
+.studio-client-list {
+    gap: 72px 24px;
+    
+}
 
 
 
@@ -283,7 +315,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    margin-left: 108px;
+    max-width: 584px ;
+    gap: 72px;
+  
 }
 .footer-cont1-2{
     display: flex;
@@ -293,7 +327,7 @@
 .footer-logo-p {
     display: flex;
     flex-direction: column;
-    margin: 0 auto 72px;
+    margin-right: 0;
     justify-content: start;
     align-items: start;
 }
@@ -303,7 +337,7 @@
     flex-direction: column;
     align-items: start;
     justify-content: start;
-    margin-bottom: 72px;
+   
 }
 
 .footer-form-container {
@@ -348,11 +382,14 @@
 
 
 
-@media screen and (min-width:1440px){
+@media screen and (min-width:1158px){
 .container {
         
-        min-width: 1158px; 
+        max-width: 1158px; 
                      
+}
+.menu-open-button{
+    display: none;
 }
 .logo-header {
     margin-right: 120px;
@@ -383,7 +420,7 @@
 .header-address-item {
 
     padding: 0 0;
-    font-size: 12px;
+    font-size: 16px;
     display: block;
 
 }
@@ -482,7 +519,7 @@
 }
 
 .studio-section-team {
-    padding: 120px 156px;
+    padding: 120px 0px;
 }
 
 .studio-img-team {
@@ -505,9 +542,12 @@
 
 width: calc((100% - 24px*3)/4);
 }
+.our-team-container{
+    min-width: 584px;
+}
 
 .studio-customers-section {
-    padding: 96px 108px;
+    padding: 96px 0px;
 
 
 }
@@ -536,21 +576,21 @@ width: calc((100% - 120px) / 6);
 .footer-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content:left;
     align-items: start;
-    margin-left: 108px;
+   
 }
 
 .footer-cont1-2 {
     display: flex;
     flex-direction: row;
-    gap: 24px;
+    gap: 120px;
 }
 
 .footer-logo-p {
     display: flex;
     flex-direction: column;
-    margin: 0 auto 72px;
+    margin: 0 auto;
     justify-content: start;
     align-items: start;
 }
@@ -560,7 +600,7 @@ width: calc((100% - 120px) / 6);
     flex-direction: column;
     align-items: start;
     justify-content: start;
-    margin-bottom: 72px;
+    
 }
 
 .footer-form-container {
