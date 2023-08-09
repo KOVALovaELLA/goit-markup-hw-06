@@ -63,45 +63,75 @@
           </ul>
         </address>
         <button type="button" class="menu-open-button button" data-menu-open>
-          <svg width="32" height="22" class="">
+          <svg width="32" height="22" class="menu-open-svg">
             <use href="./images/icons.svg#icon-menu-open"></use>
           </svg>
         </button>
       </div>
 
       <div class="mob-menu is-hidden" data-menu>
-        <button type="button" class="menu-close-button button" data-menu-close>
-          <svg width="32" height="22" class="">
-            <use href="./images/icons.svg#icon-menu-open"></use>
+        <button type="button" class="menu-close-button" data-menu-close>
+          <svg width="8" height="8" class="">
+            <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <div class="mob-socials">
-          <ul class="mob-menu-list list">
-            <li class="mob-menu-list">
-              <a href="./index.html" class="mob-menu-link link">Studio</a>
-            </li>
-            <li class="mob-menu-list">
-              <a href="./portfolio.html" class="mob-menu-link link"
-                >Portfolio</a
+        <ul class="mob-menu-list list">
+          <li class="mob-menu-list">
+            <a href="./index.html" class="mob-menu-link link">Studio</a>
+          </li>
+          <li class="mob-menu-list">
+            <a href="./portfolio.html" class="mob-menu-link link">Portfolio</a>
+          </li>
+          <li class="mob-menu-list">
+            <a href="" class="mob-menu-link link">Contacts</a>
+          </li>
+        </ul>
+        <div class="mob-adress-socials">
+          <ul class="list mob-adress">
+            <li class="mob-address-list mob-adress-li-phone">
+              <a class="link mob-address-link-phone" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
               >
             </li>
-            <li class="mob-menu-list">
-              <a href="" class="mob-menu-link link">Contacts</a>
+            <li class="mob-address-list">
+              <a
+                class="mob-address-link link mob-address-link-email"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="mob-socials-list list">
+            <li class="mob-socials-list-element">
+              <a href="" class="mob-socials-list-link">
+                <svg width="24" height="24" class="mob-socials-list-svg">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-socials-list-element">
+              <a href="" class="mob-socials-list-link">
+                <svg width="24" height="24" class="mob-socials-list-svg">
+                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-socials-list-element">
+              <a href="" class="mob-socials-list-link">
+                <svg width="24" height="24" class="mob-socials-list-svg">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-socials-list-element">
+              <a href="" class="mob-socials-list-link">
+                <svg width="24" height="24" class="mob-socials-list-svg">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
-        <ul class="list mob-socials">
-          <li class="mob-address-list">
-            <a class="mob-address-link link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="mob-address-list">
-            <a class="mob-address-link link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
       </div>
     </header>
     <main>
@@ -176,6 +206,10 @@
             <li class="studio-img-li">
               <img
                 class="studio-img-doing"
+                srcset="
+                  ./images/section1_1.jpg    1x,
+                  ./images/section1_1-2x.jpg 2x
+                "
                 src="./images/section1_1.jpg"
                 alt="computer"
                 width="360"
@@ -185,6 +219,10 @@
             <li class="studio-img-li">
               <img
                 class="studio-img-doing"
+                srcset="
+                  ./images/section1_2.jpg    1x,
+                  ./images/section1_2-2x.jpg 2x
+                "
                 src="./images/section1_2.jpg"
                 alt="message"
                 width="360"
@@ -194,6 +232,10 @@
             <li class="studio-img-li">
               <img
                 class="studio-img-doing"
+                srcset="
+                  ./images/section1_3.jpg    1x,
+                  ./images/section1_3-2x.jpg 2x
+                "
                 src="./images/section1_3.jpg"
                 alt="phone"
                 width="360"
@@ -210,6 +252,10 @@
             <li class="studio-team-infa">
               <img
                 class="studio-img-team"
+                srcset="
+                  ./images/section2_1.jpg    1x,
+                  ./images/section2_1-2x.jpg 2x
+                "
                 src="./images/section2_1.jpg"
                 alt="Mark Guerrero"
                 width="264"
@@ -253,6 +299,10 @@
             <li class="studio-team-infa">
               <img
                 class="studio-img-team"
+                srcset="
+                  ./images/section2_2.jpg    1x,
+                  ./images/section2_2-2x.jpg 2x
+                "
                 src="./images/section2_2.jpg"
                 alt="Tom Ford"
                 width="264"
@@ -296,6 +346,10 @@
             <li class="studio-team-infa">
               <img
                 class="studio-img-team"
+                srcset="
+                  ./images/section2_3.jpg    1x,
+                  ./images/section2_3-2x.jpg 2x
+                "
                 src="./images/section2_3.jpg"
                 alt="Camila Garcia"
                 width="264"
@@ -339,6 +393,10 @@
             <li class="studio-team-infa">
               <img
                 class="studio-img-team"
+                srcset="
+                  ./images/section2_4.jpg    1x,
+                  ./images/section2_4-2x.jpg 2x
+                "
                 src="./images/section2_4.jpg"
                 alt="Daniel Wilson"
                 width="264"
@@ -597,6 +655,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
-    <script src="./js/menu .js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
